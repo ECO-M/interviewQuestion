@@ -1,0 +1,14 @@
+
+.tags {
+  gap: 0 1.14285714rem;
+}
+
+.tags-span {
+  color: #FFF;
+  font-family: "NEXT Book";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 20px;
+  border: 1px solid #676767;
+}

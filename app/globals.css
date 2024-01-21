@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('./fonts/neuemachina-light.otf'),
+  url('./fonts/neuemachina-regular.otf'),
+  url('./fonts/neuemachina-ultrabold.otf');
+}
+
+@font-face {
+  font-family: 'NEXT Book';
+  src: url('./fonts/NEXT-Book-Bold.otf'),
+  url('./fonts/NEXT-Book-Bold-Italic.otf'),
+  url('./fonts/NEXT-Book-Italic.otf'),
+  url('./fonts/NEXT-Book-Regular.otf'),
+  url('./fonts/NEXT-Book-Thin.otf'),
+  url('./fonts/NEXT-Book-Thin-Italic.otf'),
+  url('./fonts/NEXT-Poster-Bold.otf'),
+  url('./fonts/NEXT-Poster-Bold-Italic.otf'),
+  url('./fonts/NEXT-Poster-Italic.otf'),
+  url('./fonts/NEXT-Poster-Regular.otf'),
+  url('./fonts/NEXT-Poster-Thin.otf'),
+  url('./fonts/NEXT-Poster-Thin-Italic.otf');
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #030303;
+  /*background: linear-gradient(*/
+  /*    to bottom,*/
+  /*    transparent,*/
+  /*    rgb(var(--background-end-rgb))*/
+  /*  )*/
+  /*  rgb(var(--background-start-rgb));*/
+}
+
+/*@layer utilities {*/
+/*  .text-balance {*/
+/*    text-wrap: balance;*/
+/*  }*/
+/*}*/
+

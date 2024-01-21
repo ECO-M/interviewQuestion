@@ -1,0 +1,116 @@
+.card-one {
+  background: url("../../../public/vector2.svg") no-repeat center;
+  background-size: contain;
+  transition: all 0.3s linear;
+}
+
+.card-one-bg {
+  background: url("../../../public/vector2_bg.svg") no-repeat center;
+  background-size: 99.8% 99.8%;
+}
+
+.card-one:hover, .card-two:hover, .card-three:hover, .card-four:hover {
+  transform: translate(4px, -4px);
+}
+
+.card-h4 {
+  font-family: 'NEXT Book';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.card-one p, .card-three p {
+  color: #676767;
+  font-family: "NEXT Book";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card-one .card-one-line {
+  background: linear-gradient(180deg, #38C1A5 -0.01%, #0891D5 99.99%);
+}
+
+.card-three-line {
+  background: linear-gradient(180deg, #D9E313 0%, #3CBC34 100%);
+}
+
+.card-four-line {
+  background: linear-gradient(180deg, #E0AD38 -0.01%, #EB3E1C 99.99%);
+}
+
+.card-two {
+  background: url("../../../public/vector1.svg") no-repeat center;
+  background-size: contain;
+  transition: all 0.3s linear;
+}
+
+.card-two-bg {
+  background: url("../../../public/vector1_bg.svg") no-repeat center;
+  background-size: 99.8% 99.8%;
+}
+
+.card-three {
+  background: url("../../../public/vector3.svg") no-repeat center;
+  transition: all 0.3s linear;
+  background-size: contain;
+}
+
+.card-three-bg {
+  background: url("../../../public/vector3_bg.svg") no-repeat center;
+  background-size: 99.8% 99.8%;
+}
+
+.card-three footer .footer-tags:nth-child(1) {
+  margin-right: 2rem;
+}
+
+.card-four {
+  background: url("../../../public/vector4.svg") no-repeat center;
+  transition: all 0.3s linear;
+  background-size: contain;
+}
+
+.card-four-bg {
+  background: url("../../../public/vector4_bg.svg") no-repeat center;
+  background-size: 99.8% 99.8%;
+}
+
+.flightSide {
+  border-radius: 2.85714286rem;
+}
+
+.flightSide-text {
+  color: #9EFA13;
+  text-align: right;
+  font-family: "NEXT Book";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footerLine span:nth-child(1) {
+  color: #676767;
+  font-family: "NEXT Book";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footerLine span:nth-child(2) {
+  color: #EDEDED;
+  text-align: right;
+  font-family: "Neue Machina";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.four-text {
+  color: #EDEDED;
+  font-family: "NEXT Book";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
